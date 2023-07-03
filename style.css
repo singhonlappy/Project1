@@ -1,0 +1,232 @@
+*{
+    margin: 0; 
+
+    font-family: Arial;
+    border: border-box ;
+        
+}
+/* Navigation Bar */
+.navbar{
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* Amazon Icon */
+.nav-amazon{
+    height: 50px;
+    width: 100px;
+}
+.amazon-icon{
+    height: 50px;
+    width:100%;
+    background-image:url("Amazon.jpg");
+    background-size: cover;
+}
+.border
+{
+       
+    border:1.5px solid transparent;
+}
+
+.border:hover
+{
+    border:1.5px solid white;
+}    
+/* Address (Deliver to.....) */
+.nav-address
+{
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display:inline;
+    
+    
+}
+.nav-address1
+{
+    font-size:  0.85rem;
+    margin-left: 15px;
+
+}
+.add-icon
+{
+    display: flex;
+    text-align: center;
+}
+.nav-address2
+{
+    font-size: 1rem;
+}
+/* Search Bar */
+.nav-search{
+display: flex;
+width: 620px;
+height:40px;
+background-color: rgb(248, 146, 74);
+border-radius: 4px;
+justify-content: space-evenly;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-select
+{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+
+}
+.search-icon
+{
+    width: 50px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+/* Hello Sign In */
+.sign-in
+{
+    width: 130px;
+    height: 50px;
+    align-items:center;
+    justify-content: center;
+    
+}
+.s-in-t1
+{
+    font-size: 0.85rem;
+}
+/* Returns and Orders */
+.orders
+{
+    font-weight: bold;
+}
+ 
+/* Cart icon */
+ .cart i
+ {
+  font-size: 30px;
+ }
+
+ /* Panel */
+ .panel
+ {
+    background-color: #222f3d;
+    height:39px;
+    color: #f3f3f3;
+    display: flex;
+ 
+    
+ }
+ /* Bar icon */
+ .baricon
+ {
+    height:35px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+ }
+ /*  panel options */
+ .panelops 
+ {
+    margin-left: 50px;
+    display: flex;
+    
+    width: 70%;
+    
+ }
+
+ .panelops p{
+    display: flex;
+    margin-left:20px;
+    height:28px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+ }
+
+ /* deals and ....... text */
+ .deals
+ {
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+ }
+
+ /* Hero part */
+  .heropic
+ {
+    background-image:url("hero.jpg");
+    background-size: cover;
+    height:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ 
+ .see
+ {
+  background-color: #F5F6F6;
+  color: black;
+  display: flex;
+  height:40px;
+  width: 1300px;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+
+  }
+  
+  
+  .bhover
+     {
+      text-decoration: none;
+     }
+.bhover:hover{
+    color: rgb(255, 102, 0);
+}
+/* boxes  */
+.boxes
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.b
+{
+    border: 2px solid #222f3d;
+    height:300px;
+    width:300px;
+}
+.b1image
+{
+    background-image: url("Gaming.avif");
+    height:80%;
+    width: 80%;
+    background-size: cover;
+    margin-left:30px;
+    
+}
