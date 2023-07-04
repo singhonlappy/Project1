@@ -215,6 +215,8 @@ justify-content: space-evenly;
     display: flex;
     justify-content: space-evenly;
 }
+
+
 .b
 {
     border: 2px solid #222f3d;
@@ -230,3 +232,33 @@ justify-content: space-evenly;
     margin-left:30px;
     
 }
+.b2image
+{ background-image: url("deals.jpg");
+    height:80%;
+    width: 80%;
+    background-size: cover;
+    margin-left:30px;
+
+}
+.b3image
+{
+    background-image: url("shopdeals.jpg");
+    height:80%;
+    width: 80%;
+    background-size: cover;
+    margin-left:30px;
+}
+.box4
+{
+width: 350px;
+height:150px;
+
+}
+.box4button
+{
+    background-color: coral;
+    width: 310px;
+    height:30px;
+    
+}
+   
